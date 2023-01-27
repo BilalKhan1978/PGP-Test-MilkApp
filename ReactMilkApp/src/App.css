@@ -1,0 +1,65 @@
+.App {
+  background-color: #aa8c90;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-lg);
+}
+.app-drop-down-container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.app-drop-down-container button {
+  padding: 15px 20px;
+  box-shadow: 0 0 25px -20px #dbdbdb;
+  flex: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: .3px solid #919191;
+}
+
+.app-drop-down-container ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  min-width: 100%;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  /* padding: 10px; */
+  border-radius: 4px;
+  box-shadow: 0 0 5px #d4d4d4;
+  list-style: none;
+}
+
+.app-drop-down-container ul li{
+  background-color: #fcfcfc;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color ease .2s;
+}
+.app-drop-down-container ul li:hover{
+  background-color: #000000;
+  color: #fcfcfc;
+}
+.heading-style{
+  
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  color: #aa8c90;
+  font-weight: bold;
+}
+
+
+  
