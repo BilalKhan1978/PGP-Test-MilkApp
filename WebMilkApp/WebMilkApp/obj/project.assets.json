@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeTest04\\WebMilkApp\\WebMilkApp\\WebMilkApp.csproj",
+      "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\PGP GITHUB\\PGP-Test-MilkApp\\WebMilkApp\\WebMilkApp\\WebMilkApp.csproj",
       "projectName": "WebMilkApp",
-      "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeTest04\\WebMilkApp\\WebMilkApp\\WebMilkApp.csproj",
+      "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\PGP GITHUB\\PGP-Test-MilkApp\\WebMilkApp\\WebMilkApp\\WebMilkApp.csproj",
       "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeTest04\\WebMilkApp\\WebMilkApp\\obj\\",
+      "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\PGP GITHUB\\PGP-Test-MilkApp\\WebMilkApp\\WebMilkApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",

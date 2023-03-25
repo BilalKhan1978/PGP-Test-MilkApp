@@ -15,14 +15,18 @@ namespace WebMilkApp.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> AllMilkInfo()
+        public async Task<IActionResult> AllMilkInfo(int offset, int count)
         {
             try
             {
-                return Ok(await _milkService.AllMilkInfo());
+                return Ok(await _milkService.AllMilkInfo(offset, count));
             }
             catch (Exception e)
             {
+                if (e.Message.Contains("Maximum limit is 50 records"))
+                    return NotFound("Maximum limit is 50 records");
+                if (e.Message.Contains("No record found"))
+                    return NotFound("No record found");
                 throw new Exception(e.Message);
             }
         }
@@ -38,7 +42,7 @@ namespace WebMilkApp.Controllers
             {
                if(e.Message.Contains("No Record Found"))
                    return NotFound(e.Message);
-                throw new Exception(e.Message);
+               throw new Exception(e.Message);
             }
         }
 
@@ -48,7 +52,7 @@ namespace WebMilkApp.Controllers
            try
            {
               await _milkService.AddMilkInfo(addMilkInfoRequestDto);
-              return Ok();
+              return Ok("Desired infromation has been added");
            }
            catch(Exception e)
            {
@@ -56,17 +60,17 @@ namespace WebMilkApp.Controllers
            }
         }
 
-        [HttpGet("search/{name}")]
-        public async Task<IActionResult> SearchMilkInfo([FromRoute] string name)
+        [HttpGet("search{query}")]
+        public async Task<IActionResult> SearchMilkInfo([FromRoute] string query)
         {
           try
           {
-                return Ok(await _milkService.SearchMilkInfo(name));
+                return Ok(await _milkService.SearchMilkInfo(query));
           }
           catch(Exception e)
           {
-                if (e.Message.Contains("No Record Found"))
-                   return NotFound();
+                if (e.Message.Contains("No record found"))
+                   return NotFound("No record found");
                 throw new Exception(e.Message);
           }
         }

@@ -12,9 +12,12 @@ namespace WebMilkApp.Services
         {
             this._dbContext = dbContext;   
         }
-        public async Task<List<Milk>> AllMilkInfo()
+        public async Task<List<Milk>> AllMilkInfo(int offset, int count)
         {
-            return await _dbContext.MilkInfo.ToListAsync();
+           if (count > 50) throw new Exception("Maximum limit is 50 records");
+           var milkInfo = await _dbContext.MilkInfo.OrderBy(x => x.Id).Skip(offset).Take(count).ToListAsync();
+           if (milkInfo == null || milkInfo.Count == 0) throw new Exception("No record found");
+           return milkInfo;
         }
         public async Task<Milk> OneMilkInfo(Guid id)
         {
@@ -31,7 +34,7 @@ namespace WebMilkApp.Services
             { 
             var milkInfo = new Milk()
             {
-                Id = item.Id,
+                Id = new Guid(),
                 Name = item.Name,
                 Type = item.Type,
                 Storage = item.Storage,
@@ -47,12 +50,12 @@ namespace WebMilkApp.Services
             var trimmedQuery = "%" + searchCriteria + "%";
             var query = _dbContext.MilkInfo
                                   .Where(x =>
-                                   EF.Functions.Like(x.Name, trimmedQuery));
+                                   EF.Functions.Like(x.Name, trimmedQuery) || EF.Functions.Like(x.Type, trimmedQuery));
             
             var milkInfo = await query.ToListAsync();
             if (milkInfo==null || milkInfo.Count ==0)
             {
-                throw new Exception("No Record Found");
+                throw new Exception("No record found");
             }
             return milkInfo;
         }
