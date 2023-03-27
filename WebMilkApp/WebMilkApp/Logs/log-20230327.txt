@@ -1,0 +1,384 @@
+2023-03-27T02:18:40.3074833+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:18:40.3314847+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:18:40.4052617+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:18:40.4102991+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:18:40.4153835+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:18:53.3977268+02:00 0HMPEB38JCONT:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:18:56.4947981+02:00 0HMPEB38JCONT:00000001 [INF] Executed DbCommand ("153"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:19:44.2791303+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:19:44.2891438+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:19:44.3308146+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:19:44.3354557+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:19:44.3380350+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:20:01.5882092+02:00 0HMPEB3RKUG22:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:20:05.3562136+02:00 0HMPEB3RKUG22:00000001 [INF] Executed DbCommand ("175"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:20:10.8648164+02:00 0HMPEB3RKUG22:00000001 [ERR] No record found (4454171d)
+2023-03-27T02:21:37.0879729+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:21:37.0969240+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:21:37.1584148+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:21:37.1743136+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:21:37.1885129+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:21:49.2399250+02:00 0HMPEB4T8C73T:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:21:53.2353155+02:00 0HMPEB4T8C73T:00000001 [ERR] Maximum limit is 50 records (286227e9)
+2023-03-27T02:22:47.2142450+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:22:47.2283792+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:22:47.2589708+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:22:47.2657679+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:22:47.2704174+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:22:58.8175070+02:00 0HMPEB5I6BN8K:00000009 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:23:01.7841656+02:00 0HMPEB5I6BN8K:00000009 [INF] Executed DbCommand ("204"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:23:01.9234649+02:00 0HMPEB5I6BN8K:00000009 [ERR] An exception occurred while iterating over the results of a query for context type '"WebMilkApp.Data.MilkDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): The number of rows provided for a FETCH clause must be greater then zero.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:04e376e8-3acb-450e-99dd-957139235125
+Error Number:10744,State:1,Class:15" (f5c7ac34)
+Microsoft.Data.SqlClient.SqlException (0x80131904): The number of rows provided for a FETCH clause must be greater then zero.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:04e376e8-3acb-450e-99dd-957139235125
+Error Number:10744,State:1,Class:15
+2023-03-27T02:23:06.2442097+02:00 0HMPEB5I6BN8K:00000009 [ERR] The number of rows provided for a FETCH clause must be greater then zero. (056aefef)
+2023-03-27T02:23:09.3645132+02:00 0HMPEB5I6BN8K:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Exception: The number of rows provided for a FETCH clause must be greater then zero.
+   at WebMilkApp.Controllers.MilkController.AllMilkInfo(Int32 offset, Int32 count) in C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\Controllers\MilkController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-27T02:26:36.2487878+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:26:36.2689825+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:26:36.2982023+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:26:36.3246845+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:26:36.3278692+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:26:51.7714464+02:00 0HMPEB7MG94EP:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:26:51.9020314+02:00 0HMPEB7MG94EP:00000001 [ERR] This number should be greater than zero (0b84183e)
+2023-03-27T02:26:59.6267312+02:00 0HMPEB7MG94EP:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Exception: This number should be greater than zero
+   at WebMilkApp.Controllers.MilkController.AllMilkInfo(Int32 offset, Int32 count) in C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\Controllers\MilkController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-27T02:27:39.6788121+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:27:39.6863128+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:27:39.7173219+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:27:39.7299646+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:27:39.7344881+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:27:55.7433364+02:00 0HMPEB89C2IPS:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:27:58.6928294+02:00 0HMPEB89C2IPS:00000001 [INF] Executed DbCommand ("167"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:28:09.2019912+02:00 0HMPEB89C2IPT:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:28:09.2903452+02:00 0HMPEB89C2IPT:00000001 [ERR] This number should be greater than zero (0b84183e)
+2023-03-27T02:28:09.4255465+02:00 0HMPEB89C2IPT:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Exception: This number should be greater than zero
+   at WebMilkApp.Controllers.MilkController.AllMilkInfo(Int32 offset, Int32 count) in C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\Controllers\MilkController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-27T02:30:21.1799179+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:30:21.1929356+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:30:21.2234434+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:30:21.2277543+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:30:21.2308163+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:30:32.1057019+02:00 0HMPEB9PGIS46:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:30:34.8993258+02:00 0HMPEB9PGIS46:00000001 [INF] Executed DbCommand ("195"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:30:45.4785503+02:00 0HMPEB9PGIS47:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:30:45.5520264+02:00 0HMPEB9PGIS47:00000001 [ERR] Count should be greater than zero (6be9c287)
+2023-03-27T02:31:16.9298673+02:00 0HMPEB9PGIS48:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:31:16.9624248+02:00 0HMPEB9PGIS48:00000001 [ERR] Maximum limit is 50 records (286227e9)
+2023-03-27T02:31:26.9487009+02:00 0HMPEB9PGIS49:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:31:26.9910557+02:00 0HMPEB9PGIS49:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:31:27.1355219+02:00 0HMPEB9PGIS49:00000001 [ERR] No record found (4454171d)
+2023-03-27T02:32:47.8281825+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:32:47.8402455+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:32:47.8671944+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:32:47.8718747+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:32:47.8746733+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:33:10.7650701+02:00 0HMPEBB57N829:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:33:10.8824684+02:00 0HMPEBB57N829:00000001 [ERR] Count should be greater than zero (6be9c287)
+2023-03-27T02:33:49.2127936+02:00 0HMPEBB57N82A:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:33:49.2439920+02:00 0HMPEBB57N82A:00000001 [ERR] Count should be greater than zero (6be9c287)
+2023-03-27T02:33:56.8219461+02:00 0HMPEBB57N82B:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:33:56.8543842+02:00 0HMPEBB57N82B:00000001 [ERR] Maximum limit is 50 records (286227e9)
+2023-03-27T02:34:14.5465808+02:00 0HMPEBB57N82C:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:34:17.5422280+02:00 0HMPEBB57N82C:00000001 [INF] Executed DbCommand ("146"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:34:17.7360780+02:00 0HMPEBB57N82C:00000001 [ERR] No record found (4454171d)
+2023-03-27T02:40:09.0476720+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:40:09.0609515+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:40:09.0877536+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:40:09.0923596+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:40:09.0953625+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:40:21.2607834+02:00 0HMPEBF8L5QI0:00000009 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:40:21.3652674+02:00 0HMPEBF8L5QI0:00000009 [ERR] Count should be from 1 to 50 records (c0472699)
+2023-03-27T02:51:02.7610259+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:51:02.7712216+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:51:02.8003215+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:51:02.8138451+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:51:02.8192531+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:51:17.1287794+02:00 0HMPEBLBGOBIS:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T02:51:20.0365883+02:00 0HMPEBLBGOBIS:00000001 [INF] Executed DbCommand ("154"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T02:51:58.6088681+02:00 0HMPEBLBGOBIT:00000001 [INF] Inside the OneMilkInfo (c426b94c)
+2023-03-27T02:51:58.7439298+02:00 0HMPEBLBGOBIT:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+WHERE [m].[Id] = @__get_Item_0" (0723d8ff)
+2023-03-27T02:52:11.8458395+02:00 0HMPEBLBGOBIU:00000001 [INF] Inside the OneMilkInfo (c426b94c)
+2023-03-27T02:52:11.9206653+02:00 0HMPEBLBGOBIU:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+WHERE [m].[Id] = @__get_Item_0" (0723d8ff)
+2023-03-27T02:52:12.0840295+02:00 0HMPEBLBGOBIU:00000001 [ERR] No Record Found (f9fb00a8)
+2023-03-27T02:55:33.1684784+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T02:55:33.1817539+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T02:55:33.2112997+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T02:55:33.2262796+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T02:55:33.2332343+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T02:56:06.3575069+02:00 0HMPEBNS28SI3:00000001 [INF] Inside the OneMilkInfo (c426b94c)
+2023-03-27T02:56:09.7469508+02:00 0HMPEBNS28SI3:00000001 [INF] Executed DbCommand ("242"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+WHERE [m].[Id] = @__get_Item_0" (0723d8ff)
+2023-03-27T02:56:09.9712285+02:00 0HMPEBNS28SI3:00000001 [ERR] No Record Found (f9fb00a8)
+2023-03-27T09:10:48.2771800+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T09:10:48.2854095+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T09:10:48.3087475+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T09:10:48.3121714+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T09:10:48.3163136+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T09:10:49.8654431+02:00 0HMPEI9I2OA83:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted] (893de8da)
+2023-03-27T09:10:50.8391469+02:00 0HMPEI9I2OA83:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Mon, 27 Mar 2023 07:10:49 GMT
+Server: Kestrel (999214c4)
+2023-03-27T09:10:51.1513572+02:00 0HMPEI9I2OA83:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted] (893de8da)
+2023-03-27T09:10:51.4325410+02:00 0HMPEI9I2OA83:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 27 Mar 2023 07:10:50 GMT
+Server: Kestrel (999214c4)
+2023-03-27T09:11:00.7337392+02:00 0HMPEI9I2OA84:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Milk
+Accept: */*
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted] (893de8da)
+2023-03-27T09:11:01.5422454+02:00 0HMPEI9I2OA84:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T09:11:05.5238601+02:00 0HMPEI9I2OA84:00000001 [INF] Executed DbCommand ("344"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-27T09:11:05.8249983+02:00 0HMPEI9I2OA84:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 27 Mar 2023 07:11:05 GMT
+Server: Kestrel (999214c4)
+2023-03-27T09:13:54.4880056+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-27T09:13:54.4983562+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-27T09:13:54.5295541+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T09:13:54.5343222+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T09:13:54.5376871+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-27T09:13:56.8263522+02:00 0HMPEIB9K8BLO:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted] (893de8da)
+2023-03-27T09:13:57.7558279+02:00 0HMPEIB9K8BLO:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Mon, 27 Mar 2023 07:13:56 GMT
+Server: Kestrel (999214c4)
+2023-03-27T09:13:58.0745097+02:00 0HMPEIB9K8BLO:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted] (893de8da)
+2023-03-27T09:13:58.4185703+02:00 0HMPEIB9K8BLO:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 27 Mar 2023 07:13:57 GMT
+Server: Kestrel (999214c4)
+2023-03-27T09:14:07.7747343+02:00 0HMPEIB9K8BLP:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Milk
+Accept: */*
+Host: localhost:7171
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted] (893de8da)
+2023-03-27T09:14:08.2420394+02:00 0HMPEIB9K8BLP:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-27T09:14:08.3881835+02:00 0HMPEIB9K8BLP:00000001 [ERR] Count only accept from 1 to 50 (a4046317)
+2023-03-27T09:14:08.4017962+02:00 0HMPEIB9K8BLP:00000001 [INF] Response:
+StatusCode: 400
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 27 Mar 2023 07:14:07 GMT
+Server: Kestrel (999214c4)

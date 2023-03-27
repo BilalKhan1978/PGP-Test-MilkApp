@@ -14,7 +14,6 @@ namespace WebMilkApp.Services
         }
         public async Task<List<Milk>> AllMilkInfo(int offset, int count)
         {
-           if (count > 50) throw new Exception("Maximum limit is 50 records");
            var milkInfo = await _dbContext.MilkInfo.OrderBy(x => x.Id).Skip(offset).Take(count).ToListAsync();
            if (milkInfo == null || milkInfo.Count == 0) throw new Exception("No record found");
            return milkInfo;

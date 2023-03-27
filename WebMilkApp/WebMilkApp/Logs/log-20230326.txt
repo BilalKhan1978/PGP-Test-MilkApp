@@ -1,0 +1,66 @@
+2023-03-26T17:26:10.3409190+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-26T17:26:10.3493534+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-26T17:26:10.3802246+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-26T17:26:10.3845728+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-26T17:26:10.3885307+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-26T17:27:00.0992234+02:00 0HMPE1PMNAU8K:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'WebMilkApp.Controllers.MilkController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-26T17:29:48.1927248+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-26T17:29:48.2082598+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-26T17:29:48.2347772+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-26T17:29:48.2396483+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-26T17:29:48.2423362+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-26T17:31:06.7346926+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-26T17:31:06.7489013+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-26T17:31:06.7803724+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-26T17:31:06.7955900+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-26T17:31:06.8008968+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-26T17:31:21.0740405+02:00 0HMPE1SF3FTIM:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:31:25.0520027+02:00 0HMPE1SF3FTIM:00000001 [INF] Executed DbCommand ("354"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-26T17:31:45.1976733+02:00 0HMPE1SF3FTIN:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:31:45.2234728+02:00 0HMPE1SF3FTIN:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY" (0723d8ff)
+2023-03-26T17:31:56.9160433+02:00 0HMPE1SF3FTIO:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:31:56.9949231+02:00 0HMPE1SF3FTIO:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-26T17:31:57.2248793+02:00 0HMPE1SF3FTIO:00000001 [ERR] No record found (4454171d)
+2023-03-26T17:32:10.4762608+02:00 0HMPE1SF3FTIP:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:32:10.5838737+02:00 0HMPE1SF3FTIP:00000001 [ERR] Maximum limit is 50 records (286227e9)
+2023-03-26T17:38:59.9182093+02:00  [INF] Now listening on: "https://localhost:7171" (d826f4b8)
+2023-03-26T17:38:59.9305759+02:00  [INF] Now listening on: "http://localhost:5171" (d826f4b8)
+2023-03-26T17:38:59.9592371+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-26T17:38:59.9636942+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-26T17:38:59.9664570+02:00  [INF] Content root path: "C:\Users\bilal\OneDrive\Desktop\PGP GITHUB\PGP-Test-MilkApp\WebMilkApp\WebMilkApp\" (b5d60022)
+2023-03-26T17:39:18.8890204+02:00 0HMPE20S5LHLV:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:39:22.0406478+02:00 0HMPE20S5LHLV:00000001 [INF] Executed DbCommand ("192"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Name], [m].[Storage], [m].[Type]
+FROM [MilkInfo] AS [m]
+ORDER BY [m].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2023-03-26T17:39:37.2647675+02:00 0HMPE20S5LHM0:00000001 [INF] Inside the AllMilkInfo (8583a411)
+2023-03-26T17:39:44.4710432+02:00 0HMPE20S5LHM0:00000001 [ERR] Maximum limit is 50 records (286227e9)

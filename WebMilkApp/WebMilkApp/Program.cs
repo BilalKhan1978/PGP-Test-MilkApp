@@ -23,6 +23,14 @@ builder.Services.AddDbContext<MilkDbContext>(options =>
 
 var app = builder.Build();
 
+// For request & response in web API  
+app.UseHttpLogging();
+
+//add dependency injection for the following logging service.
+var loggerFactory = app.Services.GetService<ILoggerFactory>();
+loggerFactory.AddFile(builder.Configuration["Logging:LogFilePath"].ToString());
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
